@@ -31,7 +31,7 @@
     vimdiffAlias = true;
 
     extraPackages = with pkgs; [
-      luajitPackages.lua-lsp
+      lua-language-server
       rnix-lsp
 
       xclip
